@@ -1,0 +1,21 @@
+name: MyBot
+version: 0.1.0
+
+authors:
+  - Doug Everly <Doug@Everly.org>
+
+targets:
+  MyBot:
+    main: src/MyBot.cr
+
+dependencies:
+  slack:
+    # github: DougEverly/slack.cr
+    path: /Users/deverly/Development/Crystal/slack
+  rss_feed_emitter:
+    github: ga2mer/rss-feed-emitter.cr
+
+
+crystal: 0.22.0
+
+license: MIT

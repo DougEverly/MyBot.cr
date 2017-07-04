@@ -1,0 +1,10 @@
+version: 1.0
+shards:
+  rss_feed_emitter:
+    github: ga2mer/rss-feed-emitter.cr
+    commit: d66fd5018b94d868c43964cd75479578094db899
+
+  slack:
+    path: /Users/deverly/Development/Crystal/slack
+    version: 0.1.0
+
